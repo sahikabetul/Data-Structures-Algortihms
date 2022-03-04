@@ -1,1 +1,2 @@
-# Data-Structures-Algortihms
+# Data Structures & Algortihms
+## Udacity Nanodegree Program Exercises
