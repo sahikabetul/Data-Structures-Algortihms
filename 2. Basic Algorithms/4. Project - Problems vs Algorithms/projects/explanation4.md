@@ -2,4 +2,4 @@
 
 - **Design:** I keep three indexes: First for iterating over the input_list(i), second for keeping lastly placed 0's index (i0) and third for keeping lastly placed 2's index (i2). I set pivots by i and if necessary, swap with i0 or i2.
 - **Time Complexity:** O(n). Single traversal
-- **Space Complexity:** O(n). I used only one list.
+- **Space Complexity:** O(1). I used only one list. My solution sorts the list in-place, meaning that no additional data structures are required.
