@@ -10,6 +10,7 @@ class RouteTrie:
         # Make sure you assign the handler to only the leaf (deepest) node of this path
         current_node = self.root
 
+        # For loop  time complexity O(n)
         for path_block in path_blocks:
             current_node.insert(path_block)
             current_node = current_node.children[path_block]
@@ -22,6 +23,7 @@ class RouteTrie:
 
         current_node = self.root
 
+        # For loop  time complexity O(n)
         for path_block in path_blocks:
             if path_block not in current_node.children:
                 return None
