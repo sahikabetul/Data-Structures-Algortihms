@@ -8,3 +8,37 @@ In addition to a path though, we need to know which function will handle the htt
 
 - **Time Complexity:** O(n), Trie approach determited the time complexity
 - **Space Complexity:** O(n). We only keep caaracters of words but not for every character. So, space complexity linear but depends on path_block count, path_block list length, unique path_block list element count.
+
+
+**RouteTrie Class**
+
+Method 1 : insert
+- **Time Complexity:** O(n). 'For loop' time complexity depends on the iterating object length.
+- **Space Complexity:** O(n)
+
+Method 2 : find
+- **Time Complexity:** O(n). 'For loop' time complexity depends on the iterating object length.
+- **Space Complexity:** O(n)
+
+
+**RouteTrieNode Class**
+
+Method 1 : insert
+
+- **Time Complexity:** O(1). Only for one item.
+- **Space Complexity:** O(1)
+
+
+**Router Class**
+
+Method 1 : add_handler
+- **Time Complexity:** O(1). Only for one item.
+- **Space Complexity:** O(1)
+
+Method 2 : lookup
+- **Time Complexity:**  O(n). Worksnly for one item: O(1). The 'find' method inside this method time complexity is O(n).
+- **Space Complexity:** O(n)
+
+Method 3 : split_path
+- **Time Complexity:**  O(n). 'For loop' time complexity depends on the iterating object length.
+- **Space Complexity:** O(n)
